@@ -1,7 +1,5 @@
 # dockerLamma
 
----
-
 ![Python 3.12](https://img.shields.io/badge/python-3.12-green)
 ![Ollama Supported](https://img.shields.io/badge/Ollama%20Supported-blue)
 ![MCP](https://img.shields.io/badge/Network%20Traffic%20Obfuscation-green)
@@ -36,6 +34,8 @@ Hardened local Ollama deployment with a separate MCP gateway service.
 - Docker Engine + `docker-compose` (legacy CLI is fine)
 - NVIDIA GPU + drivers (required for GPU acceleration)
 - NVIDIA container runtime toolkit (`nvidia-container-toolkit`)
+
+**NOTE:** You will possibly need to create a `models` directory to allow for the ollama models.
 
 ## Quick Start
 
