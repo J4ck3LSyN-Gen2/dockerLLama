@@ -1,4 +1,4 @@
-# dockerLamma
+# DockerLLama
 
 ![Python 3.12](https://img.shields.io/badge/python-3.12-green)
 ![Ollama Supported](https://img.shields.io/badge/Ollama%20Supported-blue)
