@@ -2,7 +2,15 @@
 
 ---
 
+![Python 3.12](https://img.shields.io/badge/python-3.12-green)
+![Ollama Supported](https://img.shields.io/badge/Ollama%20Supported-blue)
+![MCP](https://img.shields.io/badge/Network%20Traffic%20Obfuscation-green)
+![Version 0.0.3](https://img.shields.io/badge/Version%200.0.3-yellow)
+
+---
+
 Author: J4ck3LSyN
+
 Version: 0.0.3
 
 ---
