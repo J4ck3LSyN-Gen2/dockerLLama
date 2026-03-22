@@ -1,5 +1,12 @@
 # dockerLamma
 
+---
+
+Author: J4ck3LSyN
+Version: 0.0.3
+
+---
+
 Hardened local Ollama deployment with a separate MCP gateway service.
 
 - `ollama-node` runs the Ollama model runtime on an internal network.
