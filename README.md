@@ -13,6 +13,13 @@ Version: 0.0.3
 
 ---
 
+Ubuntu Server Instllation:
+
+1. Run `sudo bash ubuntuServerInstall.sh && reboot`
+2. Instead of `docker-compose`, use `docker compose` (this assists with legacy builds).
+3. Spawn detached tmux sesssion `tmux new-session -d -s s0 'docker compose up --build -d'` (if over ssh).
+
+
 Hardened local Ollama deployment with a separate MCP gateway service.
 
 - `ollama-node` runs the Ollama model runtime on an internal network.
@@ -375,4 +382,10 @@ Stop and remove volumes/networks for a clean reset:
 
 ```bash
 sudo docker-compose down -v --remove-orphans
+```
+
+Prune 
+
+```bash
+sudo docker-compose down
 ```
